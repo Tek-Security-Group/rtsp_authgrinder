@@ -1,4 +1,4 @@
-rtsp_auth_grinder
+rtsp_authgrinder
 =================
 
 A authentication brute forcing tool for the rtsp protocol
