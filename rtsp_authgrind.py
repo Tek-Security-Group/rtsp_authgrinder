@@ -376,7 +376,7 @@ if __name__ == '__main__':
 	users = []
 	passwords = []
 	ipport = args[-1]
-	sep = ipport.index(":")
+	sep = ipport.find(":")
 	if sep > 0:
 		IP = ipport[:sep]
 		PORT = int(ipport[sep + 1 :])
